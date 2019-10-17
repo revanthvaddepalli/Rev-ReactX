@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { render } from 'react-dom';
-import Hello from './Hello';
+import Hello from './Welcome';
 import './style.css';
 
 class App extends Component {
@@ -16,7 +16,7 @@ class App extends Component {
       <div>
         <Hello name={this.state.name} />
         <p>
-          Start editing to see some magic happen :)
+          Click begin to see the magic unravel!!
         </p>
       </div>
     );
